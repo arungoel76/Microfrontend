@@ -9,7 +9,7 @@ import styles from './app.module.css';
 export function App(props : any) {
   const { menuList, itemClickHandler } = props
   //const { menuData, setMenuSelected } = useStore()
- // const menuData : any= []
+  const menuData : any= []
 
   const handleMenuClick = (item: any) => {
     console.log('arun3 left menu handleMenuClick', item)
